@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Computer Query Chatbot - Home</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0a0f24, #121c3d);
+      color: #fff;
+    }
+
+    header {
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 100;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo i {
+      color: #00aaff;
+    }
+
+    .auth-buttons a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      margin-left: 15px;
+      border-radius: 8px;
+      border: 1px solid #00aaff;
+      transition: 0.3s;
+    }
+
+    .auth-buttons a:hover {
+      background: #00aaff;
+      color: #000;
+    }
+
+    .hero {
+      margin-top: 120px;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: auto;
+      opacity: 0.85;
+    }
+
+    .features {
+      margin-top: 70px;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      width: 280px;
+      background: rgba(255, 255, 255, 0.06);
+      padding: 25px;
+      border-radius: 15px;
+      text-align: center;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      background: rgba(255, 255, 255, 0.12);
+    }
+
+    .card i {
+      font-size: 2rem;
+      margin-bottom: 15px;
+      color: #00aaff;
+    }
+
+    .card p {
+      opacity: 0.85;
+    }
+
+    .cta {
+      margin-top: 60px;
+      text-align: center;
+    }
+
+    .cta a {
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      background: #00aaff;
+      text-decoration: none;
+      color: #000;
+      border-radius: 10px;
+      transition: 0.3s;
+      border: 1px solid #00aaff;
+    }
+
+    .cta a:hover {
+      background: transparent;
+      color: #00aaff;
+    }
+
+    footer {
+      margin-top: 80px;
+      padding: 20px;
+      text-align: center;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo"><i class="fas fa-robot"></i> Computer Query AI</div>
+    <div class="auth-buttons">
+      <a href="/login">Login</a>
+      <a href="/signup">Sign Up</a>
+    </div>
+  </header>
+
+  <div class="hero">
+    <h1>Welcome to Computer Query Chatbot</h1>
+    <p>
+      Your personal AI assistant designed to solve all your computer-related issues.
+      Whether it's WiFi trouble, slow performance, driver errors, or system problems — I'm here to help!
+    </p>
+  </div>
+
+  <div class="features">
+    <div class="card">
+      <i class="fas fa-wifi"></i>
+      <h3>Instant Solutions</h3>
+      <p>Get fast and accurate computer troubleshooting answers within seconds.</p>
+    </div>
+
+    <div class="card">
+      <i class="fas fa-brain"></i>
+      <h3>Machine Learning Powered</h3>
+      <p>Smart AI trained on real computer problems & solutions.</p>
+    </div>
+
+    <div class="card">
+      <i class="fas fa-shield-alt"></i>
+      <h3>Secure Access</h3>
+      <p>Only logged-in users can chat with the AI chatbot.</p>
+    </div>
+  </div>
+
+  <div class="cta">
+    <a href="/login">Start Using Chatbot</a>
+  </div>
+
+  <footer>
+    © 2025 Computer Query Chatbot | All Rights Reserved
+  </footer>
+</body>
+</html>
